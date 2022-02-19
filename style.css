@@ -97,9 +97,22 @@ button,
     flex: 1 1 auto;
 }
 
+.quote,
 .information {
     flex-direction: column;
     display: flex;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote strong{
+    text-align: end;
+}
+
+.information {
     text-align: center;
 }
 
