@@ -162,20 +162,20 @@ button,
 }
 
 .quote {
-    font-size: 36px;
     color: #1F2937;
 }
 
 .quote-container{
-    flex: 1 1 auto;
-}
-
-.quote p {
     width: 820px;
+    padding: 80px 0px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
 }
 
-.quote-reference{
-    margin-left: auto;
+.quote-reference {
+    font-weight: bold;
+    text-align: end;
 }
 
 .information {
