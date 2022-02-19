@@ -38,6 +38,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 16px;
 }
 
 .logo,
@@ -48,14 +49,38 @@ ul{
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
-.header,
 .hero,
 .footer {
     background-color: #1F2937;
     width: 100%;
+}
+
+.hero{
+    justify-content: center;
+}
+
+.hero-container {
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-bottom {
+    display: flex;
+    margin-bottom: 120px;
+    gap: 40px;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-text {
@@ -69,14 +94,16 @@ a,
 .footer {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .placeholder {
     background-color: grey;
-    flex: 1;
+    flex: 1 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #F9FAF8;
 }
 
 .quote {
