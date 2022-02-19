@@ -97,6 +97,16 @@ button,
     flex: 1 1 auto;
 }
 
+.cta {
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 64px;
+    border-radius: 8px;
+    margin: 60px 0px;
+    gap: 40px;
+    color: #F9FAF8;
+}
+
 .quote,
 .information {
     flex-direction: column;
