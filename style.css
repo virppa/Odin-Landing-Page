@@ -1,3 +1,7 @@
+html{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -87,6 +91,28 @@ button,
     flex: 1 1 auto;
 }
 
+.information {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 32px
+}
+
+.card {
+    width: 150px;
+    flex: 1 0 auto;
+}
+
+.card-placeholder{
+    width: 150px;
+    height: 150px;
+    border: 6px solid #3882F6;
+    border-radius: 10px;
+}
 .footer {
     text-align: center;
 }
