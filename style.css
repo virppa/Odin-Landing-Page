@@ -143,5 +143,9 @@ button,
     border-radius: 10px;
 }
 .footer {
-    text-align: center;
+    flex: 0 0 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
