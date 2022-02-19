@@ -70,6 +70,12 @@ button,
     background-color: #3882F6;
 }
 
+.hero,
+.information,
+.quote,
+.cta {
+    flex: 1 1 auto;
+}
 /* .hero {
 
 
