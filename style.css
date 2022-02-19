@@ -1,18 +1,17 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
 body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif;
     height: 100vh;
-    text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    flex-direction: column;
 }
 
 ul {
+    margin: 0px;
+    padding: 0px;
     list-style-type: none;
     display: flex;
 }
@@ -31,19 +30,29 @@ button {
     align-items: center;
 }
 
+.logo,
+ul{
+    flex: 1;
+    gap: 8px;
+}
+
+.header,
 .hero,
 .footer {
     background-color: #1F2937;
+    width: 100%;
 }
 
 .quote {
     background-color: #E5E7EB;
+    width: 100%;
 }
 
 button,
 .cta {
     background-color: #3882F6;
 }
+
 /* .hero {
 
 
@@ -61,12 +70,4 @@ button,
 
 }
 
-
-
-
-
-
-
-.footer {
-
-} */
+*/
