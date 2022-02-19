@@ -61,6 +61,11 @@ a,
     color: #E5E7EB;
 }
 
+.placeholder {
+    background-color: grey;
+    flex: 1;
+}
+
 .quote {
     background-color: #E5E7EB;
     width: 100%;
