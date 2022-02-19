@@ -48,6 +48,13 @@ ul{
     font-weight: 900;
     color: #F9FAF8;
 }
+
+a,
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .quote {
     background-color: #E5E7EB;
     width: 100%;
