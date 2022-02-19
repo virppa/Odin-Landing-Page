@@ -64,7 +64,7 @@ ul{
 }
 
 .hero-container {
-    width: 920px;
+    width: 960px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -73,7 +73,7 @@ ul{
 
 .hero-bottom {
     display: flex;
-    margin-bottom: 120px;
+    margin: 120px 0px;
     gap: 40px;
 }
 
@@ -81,6 +81,9 @@ ul{
     flex: 1;
     display: flex;
     flex-direction: column;
+}
+.hero-left p {
+    margin: 0px;
 }
 
 .main-text {
