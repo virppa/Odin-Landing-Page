@@ -28,6 +28,12 @@ button {
     border: 1px white solid;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
