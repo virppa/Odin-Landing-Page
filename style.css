@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 ul {
@@ -22,6 +23,19 @@ ul {
     align-items: center;
 }
 
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+button,
+.cta {
+    background-color: #3882F6;
+}
 /* .hero {
 
 
@@ -39,13 +53,7 @@ ul {
 
 }
 
-.quote {
 
-}
-
-.cta {
-
-}
 
 .cta-left {
 
